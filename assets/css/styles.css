@@ -1,0 +1,592 @@
+.logo {
+    width: 130px;
+    height: auto;
+    position: fixed;
+    z-index: 20;
+    padding: 0;
+    margin: 0;
+    top: 5px
+    
+}
+
+#navcol-1{
+    text-align: right;
+}
+
+#barraNavegacion{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#floating-container {
+    padding: 1%;  
+    padding-left: 49%;
+    padding-right: 50px;
+    text-align: right;
+    font-size: 40px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.textouno{
+    font-size: 30px;
+}
+
+.subtexto{
+    font-size: 25px;
+    color: rgb(255, 196, 37);
+}
+
+#neurogame-id {
+    text-align: center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: rgb(13, 15, 25) !important;
+    color: white !important;
+}
+
+.primera-seccion {
+    padding-right: 50px
+}
+
+.primera-seccion h3{
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+}
+
+.primera-seccion p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.segunda-seccion {
+    padding: 50px;
+    padding-left: 120px;
+    background-color: rgb(0, 49,  82);
+    color: rgb(151, 215, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px
+
+}
+
+.segunda-seccion-col {
+    height: 100%;
+    border-style: solid;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    padding-left: 13px;
+    !padding-right: 100px;
+}
+
+.segunda-seccion-blanco {
+    color: white;
+    font-weight: 400;
+    padding-left: 10px;
+    border-color: rgb(255, 196, 37);
+    
+}
+
+.seguimiento {
+    color: rgb(255, 196, 37);
+}
+
+.segunda-seccion-blanco-tres
+{
+    padding-top: 90px;
+    color: white;
+    font-weight: 400;
+}
+
+.tercera-seccion {
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    color: black;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.porque{
+    color: rgb(0, 49,  85);
+    font-weight: 700;
+}
+
+.humanojuega {
+    color: rgb(0, 49,  85);
+}
+
+.item-texto-deslizable{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cuarta-seccion {
+    padding: 30px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.quinta-seccion {
+    padding: 30px;
+    background-color: rgb(0, 49,  82);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.quinta-seccion h4{
+    font-size: 35px;
+    padding-left: 100px
+}
+
+.quinta-seccion li{
+    list-style: none;
+    height: auto;
+    width: auto;
+}
+
+.services_section h2{
+    padding-bottom: 30px;
+}
+
+.fotoCEO {
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#masSobreMargoth{
+    position: relative;
+    !left: 5%;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 135, 209);
+    color: white;
+}
+
+.oculta-seccion {
+    visibility: hidden;
+    opacity: 0;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+}
+
+.ending-logo {
+    width: auto;
+    height: auto;
+    max-height: 100px;
+    padding: 0px 0px 30px;
+}
+
+.texto-deslizable {
+    background-color: deepskyblue;
+    text-align: center;
+
+}
+
+.item-texto-deslizable {
+    padding-top: 60px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.item-texto-deslizable p {
+    max-width: 350px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.list-inline{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+p.copyright {
+    color: white;
+}
+
+#contact-form {
+    padding: 60px;
+}
+
+.number-in-text {
+    !padding-left: 25%;
+    !padding-top: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color:black;
+    font-size: 80px;
+    text-align: right;
+    
+}
+
+#div-iframe {
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-bottom: 100px;
+    text-align: center;
+    !height: 450px;
+    !width: 500px;
+}
+
+#div-primera-seccion-col-left {
+    padding-top: 120px;
+    text-align: center;
+    
+}
+
+#masInformacion-flotante {
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    background-color: white;
+    z-index: -550;
+    border-radius: 5%;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    
+}
+
+#masInformacion-flotante .container{
+    height: 80%;
+    padding-top: 10px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+
+#masInformacion-flotante-2 {
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    background-color: white;
+    z-index: -550;
+    border-radius: 5%;
+    padding-top: 50px;
+    
+}
+
+#masInformacion-flotante-2 .container{
+    height: 80%;
+    padding-top: 10px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+#masInformacion-flotante-2 p {
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+
+#puzzle-piece {
+    padding-left: 25px;
+    font-size: 44px;
+    color: rgb(151, 215, 0);
+    
+}
+
+#check {
+    padding-bottom: 30px;
+    !padding-left: 47%;
+    font-size: 80px;
+    color: rgb(255, 196, 37)
+}
+
+
+
+/*** 
+
+====================================================================
+	Services Section
+====================================================================
+
+***/
+
+#main-imagen-2 {
+    
+    padding: 0;
+}
+
+.services_section{
+	position:relative;
+	padding: 100px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+}
+
+.services_section:before{
+	content:'';
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background:url(../images/background/dotted-overlay.png) center center repeat;
+	background-color:rgba(0,0,0,0.30);	
+}
+
+.services_section .auto-container{
+	position: relative;
+	z-index:1;	
+}
+
+.title-style-three{
+	position:relative;
+	text-align:center;
+	margin-bottom:80px;		
+}
+
+.title-style-three h1{
+	font-size:80px;
+	text-transform:uppercase;
+	font-weight:900;
+	color:#ffffff;
+	letter-spacing:1px;
+	line-height:100px;	
+}
+
+.title-style-three h1 .lined-text{
+	position:relative;
+	display:inline-block;
+	border-bottom:1px solid #ffffff;	
+}
+
+.title-style-three h1 .bg-text{
+	position:relative;
+	display:inline-block;
+	background:#ff1a1a;
+	padding:0px 10px;
+	margin:0px -5px;	
+}
+
+.title-style-three h1 .lined-text:before{
+	content:'';
+	position:absolute;
+	left:0px;
+	bottom:-3px;
+	width:24px;
+	border-bottom:5px solid rgb(0, 135, 209);	
+}
+
+.services_section .services{
+	position:relative;
+	padding-bottom:30px;	
+}
+
+.services_section .services .row{
+	position:relative;
+	margin:0px -25px;
+}
+
+.services_section .service-column{
+	position:relative;
+	padding:0px 25px;
+	margin-bottom:50px;	
+}
+
+#contenedor_de_columnas {
+    height: auto;
+
+    
+}
+
+.service-column{
+    
+    height: auto !important;
+}
+
+.inner {
+    height: 100% !important;
+    padding-bottom: 20px !important;
+    
+    
+}
+
+.services_section .service-column .inner{
+    height: 470px;
+	position:relative;
+	display:block;
+	background:rgba(0,0,0,0.70);
+	color:#777777;
+	padding:30px 10px 90px;
+	border-radius:3px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;	
+}
+
+.services_section .service-column .inner:hover{
+	background:#ffffff;	
+}
+
+.services_section .service-column .icon{
+	position:relative;
+	display:block;
+	font-size:48px;
+	line-height:48px;
+	margin-bottom:15px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.services_section .service-column .inner:hover .icon{
+	color:rgb(0, 135, 209);	
+}
+
+.services_section .service-column h3{
+	position:relative;
+	display:block;
+	font-size:20px;
+	font-weight:700;
+	color:#d8d8d8;
+	text-transform:uppercase;
+	margin-bottom:7px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.services_section .service-column .inner:hover h3{
+	color:#1e1e1e;	
+}
+
+.services_section .service-column .text{
+	position:relative;
+	display:block;
+	font-size:12.9px;
+	font-weight:500;
+	line-height:1.7em;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.services_section .btn-style-three{
+	padding-left:50px;
+	padding-right:50px;	
+}
+
+
+/*** 
+
+====================================================================
+	End Services Section
+====================================================================
+
+***/
+
+
+#footer-final {
+    text-align: center;
+}
+
+#footer-final ul li a{
+    color: black;
+}
+
+.imagenCompleta{
+    !height: auto;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+.imagenCompleta img{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.moverIzquierda{
+    position: relative;
+    left: -40px;
+    text-align: center;
+    
+}
+
+
+.moverDerecha{
+    position: relative;
+    left: 40px;
+    text-align: center;
+
+    
+}
+
+.margen-forzado {
+    
+    margin-left: 40px !important;
+    margin-right: 40px;
+    
+}
+
+
+#div-contenedor-columnas-seccion2 {
+    height: auto;
+}
+
+#segunda-seccion-col1{
+    height: auto;
+    
+}
+
+#segunda-seccion-col2{
+    height: auto;
+    
+}
+
+.text-slider-config {
+    text-align: center;
+    margin-left: 0 !important;
+    width: 400px !important;
+    padding: 0;
+    position: relative;
+    left: -25%;
+}
+
+.carousel-inner{
+    
+    height: 330px;
+}

@@ -1,0 +1,187 @@
+body {
+    font-family: "OpenSans", sans-serif;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+#outer-container {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+
+#main-container {
+    background-image: url(../img/background/Landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+}
+
+#formulario {
+    !position: absolute;
+    !top: 0;
+    !border-radius: 5px;
+    !background-color: #f2f2f2;
+    !padding: 10px;
+    !width: 300px;
+    !height: auto;
+    !margin-top: 17%;
+    !margin-left: 71%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 2%;
+
+}
+
+#formulario form label{
+    margin-bottom: 2px;
+}
+
+#formulario form input{
+    margin: 0;
+    height: 50px;
+}
+
+#botonEnviar {
+    margin: 0px;
+    padding: 0px;
+    height: 35px !important;
+    margin-top: 5px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: dimgrey;
+}
+
+
+#logo{
+    position: relative;
+    text-align: center;
+    top: -190px;
+
+}
+
+#logo .img-fluid{
+    width: 100%;
+    height: auto; 
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#background {
+    background-image: url(../img/background/Landing1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    
+}
+
+#neurogame {
+    position: absolute;
+    !top: 83%;
+    
+}
+
+#schiller-quote {
+    position: absolute;
+    !top: 75%;
+    
+}
+
+#rows-id {
+    position: absolute;
+    top: 68%;
+    left: 0px;
+    text-align: center;
+    !padding-left: 30px;
+    !padding-right: 30px;
+    background-color: #F5F5F7;
+    height: 110px;
+    width: 100%;
+    margin: 0;
+    
+}
+
+#form-columna {
+    position: relative;
+    top: -290%;
+    max-width: 500px;
+}
+
+
+@media only screen and (max-width: 1080px) {
+
+    
+    #logo{
+    position: relative;
+    text-align: center;
+    top: -140px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #neurogame {
+        visibility: hidden;
+        
+    }
+    
+    #schiller-quote {
+        visibility: hidden;
+        
+    }
+    
+    #form-columna {
+    position: relative;
+    top: 0px;
+    max-width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+
+    }
+    
+    #logo{
+    padding-top: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: relative;
+    text-align: center;
+    top: -50px;
+
+    }
+    
+    #rows-id { 
+        height: auto;
+    }
+
+}
