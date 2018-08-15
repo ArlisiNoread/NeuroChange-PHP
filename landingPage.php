@@ -63,16 +63,16 @@ if (!isset($_SESSION["formFilled"])) {
                             <div id="formulario" class="container">
                                 <form action="./sendMail.php" method="post">
                                     <label for="fname">Nombre Completo</label>
-                                    <input type="text"  name="Nombre-Completo">
+                                    <input type="text"  name="Nombre-Completo" required>
 
                                     <label for="lname">Email</label>
-                                    <input type="email"  name="Email"  >
+                                    <input type="email"  name="Email"  required>
 
                                     <label for="fname">Teléfono</label>
                                     <input type="tel"  name="Telefono" pattern="^[0-9]*$" required> 
 
                                     <label for="lname">Ciudad</label>
-                                    <input type="text"  name="Ciudad">
+                                    <input type="text"  name="Ciudad" required>
 
                                     <input type="text"  name="isEnviado" value="enviado" hidden>
                                     <input id="botonEnviar" type="submit" value="Enviar">

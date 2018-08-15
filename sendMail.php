@@ -35,7 +35,7 @@ if (isset($_POST['isEnviado'])) {
 
 // Email Sending Details
     $mail->addAddress('angelmaxil@hotmail.com');
-    $mail->setFrom('php.servicio.arlisi@gmail.com');
+    $mail->setFrom('neurochange.consulting.php@gmail.com');
     $mail->Subject = 'Cuestionario: ' . date("Y/m/d") . ' ' . date("h:i:sa");
 
     $msg = 'Cuestionario: <br>';

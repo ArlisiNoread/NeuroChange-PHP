@@ -458,15 +458,15 @@ if (!isset($_SESSION["formFilled"])) {
                                         <form class="et_pb_contact_form clearfix" method="post" action="./sendMailComent.php">
                                             <p class="et_pb_contact_field et_pb_contact_field_0 et_pb_contact_field_last" data-id="firstname" data-type="input">
                                                 <label for="et_pb_contact_firstname_1" class="et_pb_contact_form_label">Nombre Completo</label>
-                                                <input type="text" id="et_pb_contact_firstname_1" class="input" value="" name="et_pb_contact_firstname_1" data-required_mark="required" data-field_type="input" data-original_id="firstname" placeholder="Nombre Completo">
+                                                <input required type="text" id="et_pb_contact_firstname_1" class="input" value="" name="et_pb_contact_firstname_1" data-required_mark="required" data-field_type="input" data-original_id="firstname" placeholder="Nombre Completo" >
                                             </p>
                                             <p class="et_pb_contact_field et_pb_contact_field_1 et_pb_contact_field_last" data-id="location" data-type="input">
                                                 <label for="et_pb_contact_location_1" class="et_pb_contact_form_label">Dirección</label>
-                                                <input type="text" id="et_pb_contact_location_1" class="input" value="" name="et_pb_contact_location_1" data-required_mark="required" data-field_type="input" data-original_id="location" placeholder="Dirección">
+                                                <input required type="text" id="et_pb_contact_location_1" class="input" value="" name="et_pb_contact_location_1" data-required_mark="required" data-field_type="input" data-original_id="location" placeholder="Dirección">
                                             </p>
                                             <p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_half" data-id="email" data-type="input">
                                                 <label for="et_pb_contact_email_1" class="et_pb_contact_form_label">Email</label>
-                                                <input type="email" id="et_pb_contact_email_1" class="input" value="" name="et_pb_contact_email_1" data-required_mark="required" data-field_type="input" data-original_id="email" placeholder="Email">
+                                                <input required type="email" id="et_pb_contact_email_1" class="input" value="" name="et_pb_contact_email_1" data-required_mark="required" data-field_type="input" data-original_id="email" placeholder="Email">
                                             </p>
                                             <p class="et_pb_contact_field et_pb_contact_field_3 et_pb_contact_field_half et_pb_contact_field_last" data-id="phone" data-type="input">
                                                 <label for="et_pb_contact_phone_1" class="et_pb_contact_form_label">Teléfono o Celular</label>
@@ -474,7 +474,7 @@ if (!isset($_SESSION["formFilled"])) {
                                             </p>
                                             <p class="et_pb_contact_field et_pb_contact_field_4 et_pb_contact_field_last" data-id="message" data-type="text">
                                                 <label for="et_pb_contact_message_1" class="et_pb_contact_form_label">Mensaje</label>
-                                                <textarea name="et_pb_contact_message_1" id="et_pb_contact_message_1" class="et_pb_contact_message input" data-required_mark="required" data-field_type="text" data-original_id="message" placeholder="Mensaje"></textarea>
+                                                <textarea required name="et_pb_contact_message_1" id="et_pb_contact_message_1" class="et_pb_contact_message input" data-required_mark="required" data-field_type="text" data-original_id="message" placeholder="Mensaje"></textarea>
                                             </p>
                                             <input type="text" name="isEnviado" value="enviado" hidden>
                                             <div class="et_contact_bottom_container">
