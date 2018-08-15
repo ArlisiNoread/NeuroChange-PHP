@@ -209,7 +209,7 @@ if (!isset($_SESSION["formFilled"])) {
                             </div>
                         </div>
                         <div id="deslizable-responsive" class="col col-xs-12 col-12 col-sm-12 col-md-6">
-                            <div class="container texto-deslizable" style="background-color: rgb(0,49,82)">
+                            <div class="container texto-deslizable" style="background-color: white">
                                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active item-texto-deslizable">
