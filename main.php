@@ -422,7 +422,7 @@ if (!isset($_SESSION["formFilled"])) {
                     </div>
                 </section>
                 <div class="imagenCompleta line-zero">
-                    <img class="imagenCompleta img-fluid " src="assets/img/background/CurvaBlanca.png" style="background-color: rgba(0,0,0,0.3)">
+                    <img class="imagenCompleta img-fluid">
                 </div>
             </div>
 
