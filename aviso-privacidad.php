@@ -1,12 +1,10 @@
 <?php
-
-if(session_status() == PHP_SESSION_NONE){
+if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
 if (!isset($_SESSION["formFilled"])) {
     include './index.php';
-
 } else if (!$_SESSION["formFilled"]) {
     include './index.php';
 } else {
@@ -19,6 +17,7 @@ if (!isset($_SESSION["formFilled"])) {
             <meta charset = "utf-8">
             <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
             <title>Neurochange</title>
+            <link rel="icon" href="./assets/img/logo/favicon.ico" type="image/x-icon" />
             <link href = "https://necolas.github.io/normalize.css/8.0.0/normalize.css" rel = "stylesheet">
             <link rel = "icon" href = "./assets/img/logo/favicon.ico" type = "image/x-icon" />
             <link rel = "stylesheet" href = "assets/bootstrap/css/bootstrap.css">

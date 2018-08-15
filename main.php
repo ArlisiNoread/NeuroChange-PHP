@@ -90,7 +90,7 @@ if (!isset($_SESSION["formFilled"])) {
             Background fijo 1
             **************************************************
             -->
-            <div id="main-imagen" class="section-banner-box" style="background-image: url(assets/img/background/cerebrales.jpg); padding-top: 0px; padding-bottom: 0px;">
+            <div id="main-imagen" class="section-banner-box" style="background-image: url(assets/img/background/cerebrales.jpg); padding-top: 0px; padding-bottom: 0px; background-size: cover; -webkit-background-size:cover;">
                 <div class="upper-floating-container">
                     <!-- COMPONENTES INTERNOS -->
                     <div id="floating-container">
@@ -373,7 +373,7 @@ if (!isset($_SESSION["formFilled"])) {
             Background fijo 2
             **************************************************
             -->
-            <div id="main-imagen-2" class="section-banner-box" style="background-image: url(./assets/img/background/3.jpg)">
+            <div id="main-imagen-2" class="section-banner-box" style="background-image: url(./assets/img/background/3.jpg); background-size: cover; -webkit-background-size:cover;">
                 <!-- COMPONENTES INTERNOS -->
                 <section class="services_section" id="services-section" >
                     <div class="auto-container">
