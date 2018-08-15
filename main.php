@@ -141,7 +141,7 @@ if (!isset($_SESSION["formFilled"])) {
 
 
             <div class="line-zero" style="font-size: 0px;">
-                <img class="imagenCompleta img-fluid" src="assets/img/background/CurvaBlanca.png" style="background-color: rgb(13,15,25)">
+                <img class="imagenCompleta img-fluid" src="assets/img/background/CurvaAzulOscuro.png" style="background-color: rgb(13,15,25)">
             </div>
 
 
@@ -190,7 +190,7 @@ if (!isset($_SESSION["formFilled"])) {
                 </div>
             </div>
             <div id="porque" class="imagenCompleta line-zero">
-                <img class="imagenCompleta img-fluid" src="assets/img/background/CurvaAzulOscuro.png" style="background-color: white">
+                <img class="imagenCompleta img-fluid" src="assets/img/background/CurvaBlanca.png" style="background-color: rgb(0, 49, 82);">
             </div>
             <div class="container-fluid tercera-seccion">
                 <div class="container">
@@ -209,7 +209,7 @@ if (!isset($_SESSION["formFilled"])) {
                             </div>
                         </div>
                         <div id="deslizable-responsive" class="col col-xs-12 col-12 col-sm-12 col-md-6">
-                            <div class="container texto-deslizable" style="background-color: rgb(0,49,82)">
+                            <div class="container texto-deslizable" style="background-color: white">
                                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active item-texto-deslizable">
