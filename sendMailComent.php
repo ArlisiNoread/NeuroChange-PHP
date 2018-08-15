@@ -51,8 +51,7 @@ if (isset($_POST['isEnviado'])) {
     $msg .= $et_pb_contact_message_1 . '<br>';
     $msg .= '---------------------------------' . '<br>';
     $msg .= 'Fecha: ' . date("Y/m/d") . ' ' . date("h:i:sa") . ' ' . '<br>';
-    $mail->msgHTML($msg);
-    $mail->Body = $msg;
+    //$mail->msgHTML($msg);
     if (!$mail->send()) {
         ob_start();
         $error = "Mailer Error: " . $mail->ErrorInfo;
