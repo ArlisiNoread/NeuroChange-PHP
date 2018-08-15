@@ -312,7 +312,7 @@ if (!isset($_SESSION["formFilled"])) {
             </div>
 
             <div id="sobre" class="imagenCompleta line-zero">
-                <img class="imagenCompleta img-fluid" src="assets/img/background/CurvaAzulOscuro.png" style="background-color: white">
+                <img class="imagenCompleta img-fluid" src="assets/img/background/CurvaAzul.png" style="background-color: white">
             </div>
 
 
@@ -437,7 +437,7 @@ if (!isset($_SESSION["formFilled"])) {
             </div>
 
             <div id="contacto" class="imagenCompleta line-zero">
-                <img class="imagenCompleta img-fluid" src="assets/img/background/CurvaAzul.png" style="background-color: rgba(0,0,0,0)">
+                <img class="imagenCompleta img-fluid" src="assets/img/background/CurvaAzulOscuro.png" style="background-color: rgba(0,0,0,0)">
             </div>
 
             <div class="footer-basic " style="padding: 0px;">
