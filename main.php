@@ -359,7 +359,7 @@ if (!isset($_SESSION["formFilled"])) {
 
                     <p style="rgb(0, 49, 82);"><b>Precursora y fundadora del centro de capacitación CECAT.</b> Se especializó en estrategias de capacitación a distancia y comunidades colaborativas de aprendizaje, creando la universidad virtual corporativa <b>Comex</b> y llevando la capacitación a <b>EU y Canadá.</b> Ha capacitado a diferentes niveles organizacionales desde personal operativo hasta directivos.</p>
 
-                    <p style="rgb(0, 49, 82);">Es CO y fundadora de <b>Neurochange Consulting</b> y desiñadora del sistema <b>NeuroGame Solutións.</b></p>
+                    <p style="rgb(0, 49, 82);">Es CO y fundadora de <b>Neurochange Consulting</b> y diseñadora del sistema <b>NeuroGame Solutións.</b></p>
 
                     <p style="rgb(0, 49, 82);">Graduada en <b>Comunicación y Relaciones Públicas por la Universidad Latinoamericana</b>: cuenta con un <b>Diplomado en Desarrollo humano por la universidad Iberoamericana</b> y actualmente estudia la especialización en <b>Inteligencias Múltiples</b> para el desarrollo de habilidades cognitivas y ejecutivas en Asociación Educar en Neurociencias, <b>Buenos Aires, Argentina.</b></p>
 
