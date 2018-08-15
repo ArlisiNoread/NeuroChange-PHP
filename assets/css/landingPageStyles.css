@@ -9,6 +9,7 @@ textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -22,6 +23,7 @@ textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -36,6 +38,7 @@ textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -77,15 +80,15 @@ input[type=submit]:hover {
 }
 
 #formulario {
-     !position: absolute;
-     top: -190px;
-     !border-radius: 5px;
-     !background-color: #f2f2f2;
-     !padding: 10px;
-     !width: 300px;
-     !height: auto;
-     !margin-top: 17%;
-     !margin-left: 71%;
+    !position: absolute;
+    top: 0px;
+    !border-radius: 5px;
+    !background-color: #f2f2f2;
+    !padding: 10px;
+    !width: 300px;
+    !height: auto;
+    !margin-top: 17%;
+    !margin-left: 71%;
     background-color: white;
     padding: 10px;
     border-radius: 2%;
@@ -138,13 +141,13 @@ input[type=submit]:hover {
 
 #neurogame {
     position: absolute;
-     !top: 83%;
+    !top: 83%;
 
 }
 
 #schiller-quote {
     position: absolute;
-     !top: 75%;
+    !top: 75%;
 
 }
 
@@ -153,13 +156,18 @@ input[type=submit]:hover {
     top: 68%;
     left: 0px;
     text-align: center;
-     !padding-left: 30px;
-     !padding-right: 30px;
+    !padding-left: 30px;
+    !padding-right: 30px;
     background-color: #F5F5F7;
     height: 110px;
     width: 100%;
     margin: 0;
 
+}
+
+.rows-id-inner{
+    height: 100%;
+    
 }
 
 #form-columna {
