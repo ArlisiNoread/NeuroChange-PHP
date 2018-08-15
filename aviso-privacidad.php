@@ -55,7 +55,7 @@ if (!isset($_SESSION["formFilled"])) {
                         <img class = "logo-gris" src = "assets/img/logo/LogoCortado.png" />
                     </div>
 
-                    <div class = "pegado-derecha margin-configuracion">
+                    <div id="config-texto" class = "pegado-derecha margin-configuracion">
 
                         <h5><b>¿QUIÉNES SOMOS?</b></h5>
                         <p class = "">Somos una empresa dedicada a la capacitación y al desarrollo de ejecutivos y directivos, enfocados a potencializar sus capacidades. Nuestra empresa se denomina <b>NEUROCHANGE, S. DE R.L. DE C.V.</b> (en lo sucesivo <b>NEUROCHANGE CONSULTING</b>) con domicilio en Heriberto Frías número 1439 interior 402 Colonia: Del Valle, Delegación: Benito Juárez, Código Postal 03100 en la Ciudad de México, antes Distrito Federal. Somos responsables de recabar, tratar y proteger sus datos personales con las finalidades establecidas en el presente documento, así como por lo dispuesto en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, su reglamento y demás disposiciones legales aplicables.</p>

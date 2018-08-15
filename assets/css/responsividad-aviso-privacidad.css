@@ -10,6 +10,15 @@
     }
 }
 
+
+@media only screen and (max-width: 590px) {
+    
+    #config-texto a{
+        font-size: 2.5vw; 
+        
+    }
+}
+
 @media only screen and (max-width: 470px) {
 
     .margin-configuracion {
@@ -17,4 +26,5 @@
         margin-top: 10px !important;
         padding-left: 0;
     }
+    
 }
