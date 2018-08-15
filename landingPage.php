@@ -58,7 +58,7 @@ if (!isset($_SESSION["formFilled"])) {
                         </div>
                         <div id="form-columna" class="col-12 col-md-4 col-sm-12 col-12 rows-id-inner">
                             <div id="logo" class="container-fluid">
-                                <img class="img-fluid" src="./assets/img/logo/Logo.png">
+                                <img class="img-fluid" src="./assets/img/logo/Logo-fondeado.png">
                             </div>
                             <div id="formulario" class="container">
                                 <form action="./sendMail.php" method="post">
