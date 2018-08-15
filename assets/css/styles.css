@@ -673,6 +673,8 @@ p.copyright {
     text-align: center;
     font-size: 39px;
     color: rgb(0, 49, 82);
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
 }
 
 .texto-footer {

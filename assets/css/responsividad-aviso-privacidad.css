@@ -1,0 +1,20 @@
+@media only screen and (max-width: 768px) {
+    .envolvente {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .margin-configuracion {
+        padding-left: 0;
+
+    }
+}
+
+@media only screen and (max-width: 470px) {
+
+    .margin-configuracion {
+        margin: 10px !important;
+        margin-top: 10px !important;
+        padding-left: 0;
+    }
+}

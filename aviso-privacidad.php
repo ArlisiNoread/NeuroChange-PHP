@@ -28,7 +28,8 @@ if (!isset($_SESSION["formFilled"])) {
             <link href = "https://fonts.googleapis.com/css?family=Cabin:400,700" rel = "stylesheet">
             <link href = "https://fonts.googleapis.com/css?family=Oswald:400,700" rel = "stylesheet">
             <link href = "https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel = "stylesheet">
-            <link rel = "stylesheet" href = "assets/css/aviso-privacidad.css">
+            <link rel = "stylesheet" href = "./assets/css/aviso-privacidad.css">
+            <link rel = "stylesheet" href = "./assets/css/responsividad-aviso-privacidad.css">
             <link href = "https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel = "stylesheet">
 
 
