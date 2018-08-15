@@ -15,7 +15,7 @@ div.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #aaa;
+  background: rgb(0,49,82) !important;
   height: 1px;
 }
 div.stroke ul li a:hover:after {
@@ -33,7 +33,7 @@ div.fill ul li a:after {
   opacity: 0;
 }
 div.fill ul li a:hover {
-  color: #fff;
+  color: white !important;
   z-index: 1;
 }
 div.fill ul li a:hover:after {
@@ -75,7 +75,8 @@ div.shift ul li a {
   z-index: 1;
 }
 div.shift ul li a:hover {
-  color: #91640F;
+  
+  color: white !important;
 }
 div.shift ul li a:after {
   display: block;
@@ -89,7 +90,7 @@ div.shift ul li a:after {
   height: 1px;
   content: '.';
   color: transparent;
-  background: #F1C40F;
+  color: white !important;
   visibility: none;
   opacity: 0;
   z-index: -1;
@@ -99,7 +100,6 @@ div.shift ul li a:hover:after {
   visibility: visible;
   height: 100%;
 }
-
 
 
 /* Keyframes */
@@ -115,7 +115,7 @@ div.shift ul li a:hover:after {
   100% {
     width: 100%;
     height: 100%;
-    background: #f0ebe1;
+    background: white !important;
   }
 }
 
@@ -130,7 +130,7 @@ div.shift ul li a:hover:after {
     margin: auto;
     height: 1px;
     z-index: -1;
-    background: #eee;
+    background: white !important;
     border-radius: 100%;
   }
   100% {

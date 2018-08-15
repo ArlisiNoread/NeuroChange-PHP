@@ -57,8 +57,8 @@ if (!isset($_SESSION["formFilled"])) {
                     </button>
 
                     <div class="collapse navbar-collapse justify-content-end fill" id="navcol-1">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item" role="presentation">
+                        <ul id="coloresSelectoresNav" class="nav navbar-nav">
+                            <li class="nav-item hover-color" role="presentation">
                                 <a class="nav-link active" href="#">Inicio</a>
                             </li>
                             <li class="nav-item" role="presentation">
