@@ -1,4 +1,20 @@
 @media only screen and (max-width: 768px) {
+
+    #masInformacion-flotante{
+        left: 0 !important;
+        width: 100% !important; 
+        max-width: 100% !important;
+
+    }
+
+    #masInformacion-flotante-2{
+        left: 0 !important;
+        width: 100% !important; 
+        max-width: 100% !important;
+
+    }
+
+
     .text-slider-config {
         text-align: center;
         position: relative;
@@ -73,12 +89,12 @@
 
 @media only screen and (max-width: 540px) {
     #floating-container {
-         !padding-top: 90px;
+        !padding-top: 90px;
     }
 
 
     .mouse-icon {
-         !visibility: visible;
+        !visibility: visible;
     }
 
     .tercera-seccion {
@@ -127,7 +143,7 @@
     }
 
     .tercera-seccion {
-         !height: 1500px;
+        !height: 1500px;
     }
 
 }
