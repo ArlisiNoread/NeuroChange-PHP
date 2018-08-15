@@ -15,7 +15,7 @@
 
 .pegado-derecha {
     font-family: 'Open Sans', sans-serif;
-    color: rgb(13, 183, 242);
+    color: rgb(0, 49, 82);
 }
 
 .margin-configuracion {
@@ -61,5 +61,6 @@
     padding-right: 123px;
     background-image: url("../img/background/Fondo%20neuronas.jpg");
     height: 100%;
+    background-repeat: no-repeat;
 
 }

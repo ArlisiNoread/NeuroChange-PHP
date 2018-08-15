@@ -312,7 +312,7 @@ if (!isset($_SESSION["formFilled"])) {
             </div>
 
             <div id="sobre" class="imagenCompleta line-zero">
-                <img class="imagenCompleta img-fluid" src="assets/img/background/CurvaBlanca.png" style="background-color: rgb(0,49,82)">
+                <img class="imagenCompleta img-fluid" src="assets/img/background/CurvaAzulOscuro.png" style="background-color: white">
             </div>
 
 
@@ -431,7 +431,7 @@ if (!isset($_SESSION["formFilled"])) {
 
             <div class="container-fluid fondo-preparate ">
                 <blockquote class="blockquote">
-                    <p class="mb-0 texto-preparate">¡Preparate para ser de los vanguardistas que ya están utilizando <b style="color: rgb(239, 65, 53)">NeuroGame Solutions!</b><br>Deja atrás las viejas prácticas y ve más allá de solo capacitar.</p>
+                    <p class="mb-0 texto-preparate">¡Preparate para ser de los vanguardistas que ya están utilizando <b style="color: rgb(239, 65, 53)"><br>NeuroGame Solutions!</b><br>Deja atrás las viejas prácticas y ve más allá de solo capacitar.</p>
                     <footer class="blockquote-footer texto-footer"><b style="color: rgb(160, 206, 103)">¡Llena el formulario y solicita más información ahora!</b></footer>
                 </blockquote>
             </div>

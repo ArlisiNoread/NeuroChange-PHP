@@ -80,7 +80,7 @@
 .segunda-seccion {
     padding: 50px;
     padding-left: 120px;
-    background-color: white;
+    background-color: rgb(0, 49, 82);
     color: rgb(151, 215, 0);
     font-family: 'Open Sans', sans-serif;
     font-size: 20px
@@ -119,10 +119,10 @@
     padding: 30px;
     font-family: 'Open Sans', sans-serif;
     font-size: 23px;
-    color: white;
+    color: rgb(0, 49, 82);
     padding-left: 30px;
     text-align: center;
-    background-color: rgb(0, 49, 82);
+    background-color: white;
 }
 
 .porque {
@@ -138,8 +138,8 @@
 
 .cuarta-seccion {
     padding: 30px;
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 49, 82);
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
@@ -672,6 +672,7 @@ p.copyright {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 39px;
+    color: rgb(0, 49, 82);
 }
 
 .texto-footer {
