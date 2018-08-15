@@ -33,12 +33,12 @@ if (isset($_POST['isEnviado'])) {
     $mail->Port = 587;
     $mail->SMTPSecure = 'tls';
     $mail->SMTPAuth = true;
-    $mail->Username = 'php.servicio.arlisi';
-    $mail->Password = '4z;_^4T{#TtTtDR3';
+    $mail->Username = 'neurochange.consulting.php';
+    $mail->Password = 'E=TXj;F+gZ[%jUUMyQy{';
 
 // Email Sending Details
     $mail->addAddress('angelmaxil@hotmail.com');
-    $mail->setFrom('php.servicio.arlisi@gmail.com');
+    $mail->setFrom('neurochange.consulting.php@gmail.com');
     $mail->Subject = 'Contacto: ' . date("Y/m/d") . ' ' . date("h:i:sa");
 
     $msg = 'Contacto: <br>';
