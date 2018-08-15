@@ -45,9 +45,8 @@ if (isset($_POST['isEnviado'])) {
     $msg .= 'Ciudad: ' . $ciudad . '<br>';
     $msg .= 'Fecha: ' . date("Y/m/d") . ' ' . date("h:i:sa") . ' ' . '<br>';
 
-    //echo $msg;
-    //$mail->msgHTML($msg);
-    //$mail->Body=$msg;
+    $mail->msgHTML($msg);
+    
 
     $_SESSION["formFilled"] = TRUE;
 
