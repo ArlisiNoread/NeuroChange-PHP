@@ -52,18 +52,11 @@ if (isset($_POST['isEnviado'])) {
     $msg .= '---------------------------------' . '<br>';
     $msg .= 'Fecha: ' . date("Y/m/d") . ' ' . date("h:i:sa") . ' ' . '<br>';
     $mail->msgHTML($msg);
-    $mail->Body = $msg;
+    
     if (!$mail->send()) {
-        ob_start();
         $error = "Mailer Error: " . $mail->ErrorInfo;
         echo '<p id="para">' . $error . '</p>';
-        echo '<p>Redirigiendo en/p>';
-        $x = 0;
-        for ($x; $x < 4; $x++) {
-            sleep(1);
-            echo '<p>' . (4 - $x) . '</p>';
-        }
-        ob_clean();
+
         header("Location: ./index.php", true, 301);
     } else {
         include './main.php';
