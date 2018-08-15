@@ -60,6 +60,7 @@
     padding-right: 123px;
     background-image: url("../img/background/Fondo%20neuronas.jpg");
     height: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    padding-bottom: 15px;
 
 }
