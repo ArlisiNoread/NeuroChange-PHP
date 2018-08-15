@@ -199,7 +199,7 @@ if (!isset($_SESSION["formFilled"])) {
                             <div class="container">
                                 <p style="font-size: 30px;"><b class="porque">¿Porqué elegir NeuroChange Consulting?</b></p>
 
-                                <p>Sabemos que el juego es un mecanismo natural arraigado genéticamente en nuestro cerebro que despierta la curiosidad, la alegría y facilita el aprendizaje para desenvolvernos mejor en el mundo que nos rodea.</p>
+                                <p style="rgb(0, 49, 82);">Sabemos que el juego es un mecanismo natural arraigado genéticamente en nuestro cerebro que despierta la curiosidad, la alegría y facilita el aprendizaje para desenvolvernos mejor en el mundo que nos rodea.</p>
 
                                 <blockquote class="blockquote">
                                     <p class="mb-0"><b class="humanojuega">El humano es solo plenamente humano cuando juega.</b></p>
@@ -351,17 +351,17 @@ if (!isset($_SESSION["formFilled"])) {
 
             <div id="masInformacion-flotante-2" class="container">
                 <a id="boton-cerrado-masInformacion-flotante-2" class="close"></a>
-                <p>Es <b>CO y Fundadora de Neurochange Consulting</b> y diseñadora del sistema <b>NeuroGame.</b></p>
+                <p style="rgb(0, 49, 82);">Es <b>CO y Fundadora de Neurochange Consulting</b> y diseñadora del sistema <b>NeuroGame.</b></p>
                 <div class="container" style="overflow-y: scroll">
-                    <p>Facilitadora y consultora con experiencía de más de <b>20 años en el área de capacitación</b>, entrenamiento y desarrollo de empleados, enfocada en el crecimiento del talento humano y procesos de cambio organizacional.</p>
+                    <p style="rgb(0, 49, 82);">Facilitadora y consultora con experiencía de más de <b>20 años en el área de capacitación</b>, entrenamiento y desarrollo de empleados, enfocada en el crecimiento del talento humano y procesos de cambio organizacional.</p>
 
-                    <p><b>Ha implementado estrategias, planes y programas de capacitacióin para e desarrollo de competencias técnicas y habilidades directivas.</b></p>
+                    <p style="rgb(0, 49, 82);"><b>Ha implementado estrategias, planes y programas de capacitacióin para e desarrollo de competencias técnicas y habilidades directivas.</b></p>
 
-                    <p><b>Precursora y fundadora del centro de capacitación CECAT.</b> Se especializó en estrategias de capacitación a distancia y comunidades colaborativas de aprendizaje, creando la universidad virtual corporativa <b>Comex</b> y llevando la capacitación a <b>EU y Canadá.</b> Ha capacitado a diferentes niveles organizacionales desde personal operativo hasta directivos.</p>
+                    <p style="rgb(0, 49, 82);"><b>Precursora y fundadora del centro de capacitación CECAT.</b> Se especializó en estrategias de capacitación a distancia y comunidades colaborativas de aprendizaje, creando la universidad virtual corporativa <b>Comex</b> y llevando la capacitación a <b>EU y Canadá.</b> Ha capacitado a diferentes niveles organizacionales desde personal operativo hasta directivos.</p>
 
-                    <p>Es CO y fundadora de <b>Neurochange Consulting</b> y desiñadora del sistema <b>NeuroGame Solutións.</b></p>
+                    <p style="rgb(0, 49, 82);">Es CO y fundadora de <b>Neurochange Consulting</b> y diseñadora del sistema <b>NeuroGame Solutións.</b></p>
 
-                    <p>Graduada en <b>Comunicación y Relaciones Públicas por la Universidad Latinoamericana</b>: cuenta con un <b>Diplomado en Desarrollo humano por la universidad Iberoamericana</b> y actualmente estudia la especialización en <b>Inteligencias Múltiples</b> para el desarrollo de habilidades cognitivas y ejecutivas en Asociación Educar en Neurociencias, <b>Buenos Aires, Argentina.</b></p>
+                    <p style="rgb(0, 49, 82);">Graduada en <b>Comunicación y Relaciones Públicas por la Universidad Latinoamericana</b>: cuenta con un <b>Diplomado en Desarrollo humano por la universidad Iberoamericana</b> y actualmente estudia la especialización en <b>Inteligencias Múltiples</b> para el desarrollo de habilidades cognitivas y ejecutivas en Asociación Educar en Neurociencias, <b>Buenos Aires, Argentina.</b></p>
 
                 </div>
 
@@ -431,7 +431,7 @@ if (!isset($_SESSION["formFilled"])) {
 
             <div class="container-fluid fondo-preparate ">
                 <blockquote class="blockquote">
-                    <p class="mb-0 texto-preparate">¡Preparate para ser de los vanguardistas que ya están utilizando <b style="color: rgb(239, 65, 53)"><br>NeuroGame Solutions!</b><br>Deja atrás las viejas prácticas y ve más allá de solo capacitar.</p>
+                    <p class="mb-0 texto-preparate" style="color=rgb(0, 49, 82);">¡Preparate para ser de los vanguardistas que ya están utilizando <b style="color: rgb(239, 65, 53)"><br>NeuroGame Solutions!</b><br>Deja atrás las viejas prácticas y ve más allá de solo capacitar.</p>
                     <footer class="blockquote-footer texto-footer"><b style="color: rgb(160, 206, 103)">¡Llena el formulario y solicita más información ahora!</b></footer>
                 </blockquote>
             </div>
