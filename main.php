@@ -218,7 +218,7 @@ if (!isset($_SESSION["formFilled"])) {
                                                     <p class="" style="color: rgb(179, 35, 23)">01.</p>
                                                 </div>
                                                 <div class="col col-xs-12 col-12 col-sm-12 col-md-9 text-slider-config">
-                                                    <p>Genera placer y satisfacción, ya que el participante pone a prueba el conocimiento adquirido en el aula, lo que lo mantiene enfocado, divertido y aprendiendo.</p>
+                                                    <p style="text-align: left">Genera placer y satisfacción, ya que el participante pone a prueba el conocimiento adquirido en el aula, lo que lo mantiene enfocado, divertido y aprendiendo.</p>
                                                 </div>
                                             </div>
                                         </div>
