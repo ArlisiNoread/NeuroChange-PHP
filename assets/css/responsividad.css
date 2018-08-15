@@ -1,5 +1,15 @@
 @media only screen and (max-width: 768px) {
 
+    #main-imagen{
+        background-attachment: scroll;
+
+    }
+
+    #main-imagen-2 {
+        background-attachment: scroll;
+
+    }
+
     #masInformacion-flotante{
         left: 0 !important;
         width: 100% !important; 
