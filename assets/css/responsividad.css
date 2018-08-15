@@ -5,14 +5,129 @@
         left: 0%;
         top: -45px;
     }
-    
-    .number-in-text{
+
+    .number-in-text {
         margin-top: 0;
         top: -40px;
         text-align: center;
     }
-    
+
     .carousel-inner {
         height: 340px;
     }
+
+    .ajuste-responsivo {
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+
+    #neurogame-id {
+        height: 700px;
+    }
+
+    .line-zero {
+        line-height: 0;
+        text-decoration-line: none;
+
+    }
+
+    .upper-floating-container {
+        padding-top: 7vw;
+    }
+
+    #floating-container {
+        padding: 0%;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Cabin', sans-serif;
+
+    }
+
+    .textouno {
+        padding-left: 0;
+        font-size: 5vw;
+
+    }
+
+    .hipertexto {
+        font-size: 4vw;
+    }
+
+    .subtexto {
+        font-size: 4vw;
+    }
+
+    .last-neuro-text {
+        top: -5px;
+        font-size: 8.5vw;
+    }
+
+    .mouse-icon {
+        visibility: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 540px) {
+    #floating-container {
+         !padding-top: 90px;
+    }
+
+
+    .mouse-icon {
+         !visibility: visible;
+    }
+
+    .tercera-seccion {
+        height: 1100px;
+    }
+
+    .carousel-inner {
+        height: 1000px;
+    }
+
+    .carousel-control-prev-icon-izquierda {
+        top: 250px;
+    }
+
+    .carousel-control-prev-icon-derecha {
+        top: 250px;
+    }
+
+    #audio-mp3 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+
+
+    .tercera-seccion {
+        height: 1300px;
+    }
+
+    .carousel-inner {
+        height: 600px;
+    }
+
+
+    #floating-container {
+        padding-top: 90px;
+    }
+
+    .carousel-control-prev-icon-izquierda {
+        top: 250px;
+    }
+
+    .carousel-control-prev-icon-derecha {
+        top: 250px;
+    }
+
+    .tercera-seccion {
+         !height: 1500px;
+    }
+
 }
