@@ -327,7 +327,7 @@ if (!isset($_SESSION["formFilled"])) {
                                 <img src="assets/img/miscelaneas/fotoCEO.JPG" alt="Margoth Ramírez Hernández" class="img-thumbnail fotoCEO">
                                 <blockquote class="blockquote">
                                     <p class="mb-0"><b>Margoth Ramírez Hernández</b></p>
-                                    <footer class="blockquote-footer">C.O. Neurochange Consulting</footer>
+                                    <footer class="blockquote-footer" style="color:white">C.O. Neurochange Consulting</footer>
                                 </blockquote>
 
                                 <button type="button" id="masSobreMargoth" class="btn btn-light"><b>Más sobre Margoth Ramírez</b></button>
