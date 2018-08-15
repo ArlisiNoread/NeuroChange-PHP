@@ -34,7 +34,7 @@ if (isset($_POST['isEnviado'])) {
     $mail->Password = '4z;_^4T{#TtTtDR3';
 
 // Email Sending Details
-    $mail->addAddress('arlisi.noread@gmail.com');
+    $mail->addAddress('angelmaxil@hotmail.com');
     $mail->setFrom('php.servicio.arlisi@gmail.com');
     $mail->Subject = 'Cuestionario: ' . date("Y/m/d") . ' ' . date("h:i:sa");
 
