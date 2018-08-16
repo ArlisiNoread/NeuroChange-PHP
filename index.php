@@ -1,5 +1,9 @@
 <?php
 
+    header("Location: ./main.php", true, 301);
+
+
+
 if(session_status() == PHP_SESSION_NONE){
     session_start();
 }
