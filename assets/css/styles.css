@@ -38,7 +38,8 @@
      !font-size: 30px;
     padding-left: 32%;
     max-width: 100%;
-    font-size: 2.5vw
+    font-size: 2.5vw;
+    font-weight: 700i;
 }
 
 .hipertexto {
@@ -81,14 +82,13 @@
     padding: 50px;
     padding-left: 120px;
     background-color: rgb(0, 49, 82);
-    color: rgb(151, 215, 0);
+    color: rgb(255, 196, 37);
     font-family: 'Open Sans', sans-serif;
     font-size: 20px
 }
 
 .segunda-seccion-col {
     height: 100%;
-    border-style: solid;
     text-align: center;
     padding-top: 90px;
     padding-bottom: 60px;
@@ -99,14 +99,13 @@
 .segunda-seccion-blanco {
     color: white;
     font-weight: 400;
-     !padding-left: 10px;
-    border-color: rgb(255, 196, 37);
+    !padding-left: 10px;
     padding-top: 25%;
 
 }
 
 .seguimiento {
-    color: rgb(255, 196, 37);
+    color: white;
 }
 
 .segunda-seccion-blanco-tres {
@@ -126,12 +125,12 @@
 }
 
 .porque {
-    color: rgb(247, 143, 30);
+    color: rgb(13, 183, 242);
     font-weight: 700;
 }
 
 .humanojuega {
-    color: rgb(74, 170, 66);
+    color: rgb(0, 49, 82);
 }
 
 
@@ -175,7 +174,7 @@
 
 #masSobreMargoth {
     position: relative;
-     !left: 5%;
+    !left: 5%;
     margin: 10px;
     border-radius: 5px;;
     background-color: #6c757d;
@@ -253,7 +252,6 @@ p.copyright {
     color: black;
     font-size: 65px;
     text-align: right;
-
 }
 
 #div-iframe {
@@ -268,7 +266,6 @@ p.copyright {
 #div-primera-seccion-col-left {
     padding-top: 120px;
     text-align: center;
-
 }
 
 #masInformacion-flotante {
@@ -344,7 +341,7 @@ p.copyright {
     padding-bottom: 30px;
      !padding-left: 47%;
     font-size: 80px;
-    color: rgb(255, 196, 37)
+    color: rgb(13, 183, 242);
 }
 
 

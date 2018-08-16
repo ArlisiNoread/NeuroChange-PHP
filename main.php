@@ -37,9 +37,8 @@ if (!isset($_SESSION["formFilled"])) {
             <link rel="stylesheet" href="./assets/css/close-button.css">
             <link rel="stylesheet" href="./assets/css/estilosNavBar.css">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-            <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:400i,700i" rel="stylesheet"> 
 
 
         </head>
@@ -153,7 +152,7 @@ if (!isset($_SESSION["formFilled"])) {
                         <div id="segunda-seccion-col1" class="col col-xs-12 col-12 col-sm-12  col-md-6">
 
                             <div class="container segunda-seccion-col" style="text-align: center;">
-                                <h3 style="color: rgb(255,196,37); font-size: 35px;"><b>NeuroGame Solution</b></h3>
+                                <h3 style="color: white; font-size: 35px;"><b>NeuroGame Solution</b></h3>
                                 <h3 style="margin-bottom: 20px; font-size: 25px">Nuestro Producto Estrella</h3>
                                 <i id="check" class="fas fa-check"></i>
                                 <p class="seguimiento" style="font-size: 25px;">¡Dar seguimiento, reforzamiento, práctica y evaluación automatizada, después de tu programa de capacitación o coach, ya es posible!</p>
@@ -337,7 +336,7 @@ if (!isset($_SESSION["formFilled"])) {
                         </div>
                         <div class="col col-xs-12 col-12 col-sm-12 col-md-6">
                             <div class="container" style="font-size: 30px; text-align: center; padding-top: 50px;">
-                                <p><b style="color: rgb(160, 206, 103)">"Soy facilitadora y consultora de capacitación</b>, ayudo a colegas coachs y responsables de capacitación a dar resulados tangibles de manera automática a través de <b style="color: rgb(255, 196, 37)">tu nueva herramienta NeuroGame."</b></p>
+                                <p><b>"Soy facilitadora y consultora de capacitación</b>, ayudo a colegas coachs y responsables de capacitación a dar resulados tangibles de manera automática a través de <b style="color: rgb(255, 196, 37)">tu nueva herramienta NeuroGame."</b></p>
 
                                 <audio id="audio-mp3" controls>
                                     <source src="./assets/sound/SpotNeurochange.mp3" type="audio/mpeg">
@@ -432,8 +431,8 @@ if (!isset($_SESSION["formFilled"])) {
 
             <div class="container-fluid fondo-preparate ">
                 <blockquote class="blockquote">
-                    <p class="mb-0 texto-preparate" style="color: rgb(0, 49, 82);">¡Preparate para ser de los vanguardistas que ya están utilizando <b style="color: rgb(239, 65, 53)"><br>NeuroGame Solutions!</b><br>Deja atrás las viejas prácticas y ve más allá de solo capacitar.</p>
-                    <footer class="blockquote-footer texto-footer"><b style="color: rgb(160, 206, 103)">¡Llena el formulario y solicita más información ahora!</b></footer>
+                    <p class="mb-0 texto-preparate" style="color: rgb(0, 49, 82);">¡Preparate para ser de los vanguardistas que ya están utilizando <b style="color: rgb(13, 183, 242)"><br>NeuroGame Solutions!</b><br>Deja atrás las viejas prácticas y ve más allá de solo capacitar.</p>
+                    <footer class="blockquote-footer texto-footer"><b style="color: rgb(255, 196, 37)">¡Llena el formulario y solicita más información ahora!</b></footer>
                 </blockquote>
             </div>
 
