@@ -11,8 +11,8 @@ if (isset($_POST['isEnviado'])) {
     date_default_timezone_set('America/Mexico_City');
 
     $et_pb_contact_firstname_1 = htmlspecialchars($_POST['et_pb_contact_firstname_1']);
-    $et_pb_contact_location_1 = htmlspecialchars($_POST['et_pb_contact_location_1']);
-    $et_pb_contact_email_1 = htmlspecialchars($_POST['et_pb_contact_email_1']);
+    $et_pb_contact_email_1 = htmlspecialchars($_POST['et_pb_contact_location_1']);
+    $et_pb_contact_ocupacion_1 = htmlspecialchars($_POST['et_pb_contact_email_1']);
     $et_pb_contact_phone_1 = htmlspecialchars($_POST['et_pb_contact_phone_1']);
     $et_pb_contact_message_1 = htmlspecialchars($_POST['et_pb_contact_message_1']);
 
@@ -43,9 +43,9 @@ if (isset($_POST['isEnviado'])) {
 
     $msg = 'Contacto: <br>';
     $msg .= 'Nombre Completo: ' . $et_pb_contact_firstname_1 . '<br>';
-    $msg .= 'Email: ' . $et_pb_contact_location_1 . '<br>';
-    $msg .= 'Teléfono: ' . $et_pb_contact_email_1 . '<br>';
-    $msg .= 'Ciudad: ' . $et_pb_contact_phone_1 . '<br>';
+    $msg .= 'Email: ' . $et_pb_contact_email_1 . '<br>';
+    $msg .= 'Ocupación: ' . $et_pb_contact_ocupacion_1 . '<br>';
+    $msg .= 'Teléfono: ' . $et_pb_contact_phone_1 . '<br>';
     $msg .= 'Mensaje: ' . '<br>';
     $msg .= '---------------------------------' . '<br>';
     $msg .= $et_pb_contact_message_1 . '<br>';

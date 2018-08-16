@@ -2,6 +2,7 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
+
 if (!isset($_SESSION["formFilled"])) {
     include './index.php';
 } else if (!$_SESSION["formFilled"]) {
@@ -461,16 +462,16 @@ if (!isset($_SESSION["formFilled"])) {
                                                 <input required type="text" id="et_pb_contact_firstname_1" class="input" value="" name="et_pb_contact_firstname_1" data-required_mark="required" data-field_type="input" data-original_id="firstname" placeholder="Nombre Completo" >
                                             </p>
                                             <p class="et_pb_contact_field et_pb_contact_field_1 et_pb_contact_field_last" data-id="location" data-type="input">
-                                                <label for="et_pb_contact_location_1" class="et_pb_contact_form_label">Dirección</label>
-                                                <input required type="text" id="et_pb_contact_location_1" class="input" value="" name="et_pb_contact_location_1" data-required_mark="required" data-field_type="input" data-original_id="location" placeholder="Dirección">
+                                                <label for="et_pb_contact_location_1" class="et_pb_contact_form_label">Email</label>
+                                                <input required type="email" id="et_pb_contact_location_1" class="input" value="" name="et_pb_contact_location_1" data-required_mark="required" data-field_type="input" data-original_id="location" placeholder="Email">
                                             </p>
                                             <p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_half" data-id="email" data-type="input">
-                                                <label for="et_pb_contact_email_1" class="et_pb_contact_form_label">Email</label>
-                                                <input required type="email" id="et_pb_contact_email_1" class="input" value="" name="et_pb_contact_email_1" data-required_mark="required" data-field_type="input" data-original_id="email" placeholder="Email">
+                                                <label for="et_pb_contact_email_1" class="et_pb_contact_form_label">Ocupación</label>
+                                                <input required type="text" id="et_pb_contact_email_1" class="input" value="" name="et_pb_contact_email_1" data-required_mark="required" data-field_type="input" data-original_id="email" placeholder="Ocupación">
                                             </p>
                                             <p class="et_pb_contact_field et_pb_contact_field_3 et_pb_contact_field_half et_pb_contact_field_last" data-id="phone" data-type="input">
-                                                <label for="et_pb_contact_phone_1" class="et_pb_contact_form_label">Teléfono o Celular</label>
-                                                <input type="tel" id="et_pb_contact_phone_1" class="input" value="" name="et_pb_contact_phone_1" data-required_mark="not_required" data-field_type="input" data-original_id="phone" placeholder="Teléfono o Celular" pattern="^[0-9]*$">
+                                                <label for="et_pb_contact_phone_1" class="et_pb_contact_form_label">Teléfono o Celular (Opcional)</label>
+                                                <input type="tel" id="et_pb_contact_phone_1" class="input" value="" name="et_pb_contact_phone_1" data-required_mark="not_required" data-field_type="input" data-original_id="phone" placeholder="Teléfono o Celular (Optativo)" pattern="^[0-9]*$">
                                             </p>
                                             <p class="et_pb_contact_field et_pb_contact_field_4 et_pb_contact_field_last" data-id="message" data-type="text">
                                                 <label for="et_pb_contact_message_1" class="et_pb_contact_form_label">Mensaje</label>
