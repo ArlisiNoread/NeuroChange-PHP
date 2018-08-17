@@ -411,9 +411,9 @@ if (!isset($_SESSION["formFilled"])) {
                                         </div>
                                         <h3>Valores</h3>
                                         <div class="text">
-                                            <p><b class="valores"><i>Innovación:</i></b> Ofrecemos tecnología vanguardista diseñada y desarrollada con base en la neurociencia y el aprendizaje.</p>
-                                            <p><b class="valores"><i>Orientación a Resultados:</i></b> Nos enfocamos al logro de los resultados, mismos que son 100% medibles y comprobables.</p>
-                                            <p><b class="valores"><i>Servicio:</i></b>  Ponemos nuestra experiencia, conocimientos, tecnología y pasión en lo que hacemos, para satisfacer las necesidades de nuestros clientes.</p>
+                                            <p><b><i class="valores">Innovación:</i></b> Ofrecemos tecnología vanguardista diseñada y desarrollada con base en la neurociencia y el aprendizaje.</p>
+                                            <p><b><i class="valores">Orientación a Resultados:</i></b> Nos enfocamos al logro de los resultados, mismos que son 100% medibles y comprobables.</p>
+                                            <p><b><i class="valores">Servicio:</i></b>  Ponemos nuestra experiencia, conocimientos, tecnología y pasión en lo que hacemos, para satisfacer las necesidades de nuestros clientes.</p>
                                         </div>
                                     </div>
                                 </div>
