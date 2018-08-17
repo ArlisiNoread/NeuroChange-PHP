@@ -86,7 +86,7 @@ if (!isset($_SESSION["formFilled"])) {
                                     <input type="text"  name="isEnviado" value="enviado" hidden>
                                     <input id="botonEnviar" type="submit" value="Enviar">
                                     <br><br>
-                                    <label style="font-size: 1.3vw"><b>Tus datos están seguros. Consulta nuestras <a href="./aviso-privacidad.php">políticas de privacidad</a>.</b></label>
+                                    <label style="font-size: 1.3vw"><b>Tus datos están seguros. Consulta nuestras <a href="./aviso-privacidad.php" target="_blank">políticas de privacidad</a>.</b></label>
 
                                 </form>
                             </div>
