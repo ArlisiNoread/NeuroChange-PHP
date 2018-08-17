@@ -1,5 +1,5 @@
 <?php
-if(session_status() == PHP_SESSION_NONE){
+if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 if (!isset($_SESSION["formFilled"])) {
@@ -46,17 +46,33 @@ if (!isset($_SESSION["formFilled"])) {
 
                 <div class="container-fluid">
                     <div id="rows-id" class="row container-flow">
+                        <!--
                         <div class="col col-md-4 rows-id-inner">
+                            
                             <div id="neurogame" class="container-fluid">
                                 <img class="img-fluid" src="./assets/img/background/NeuroGame.jpg">
                             </div>
                         </div>
-                        <div class="col col-md-4 rows-id-inner">
+                        -->
+                        <div class="col col-md-4">
+                            <!--
                             <div id="schiller-quote" class="container-fluid">
                                 <img class="img-fluid" src="./assets/img/background/TextoSchiller.jpg">
                             </div>
+                            -->
+                            <div class="container">
+
+
+                            </div>
+                            
+                            <div class="container">
+                                
+                                
+                            </div>
+
+
                         </div>
-                        <div id="form-columna" class="col-12 col-md-4 col-sm-12 col-12 rows-id-inner">
+                        <div id="form-columna" class="col-12 col-md-4 col-sm-12 col-12">
                             <div id="logo" class="container-fluid">
                                 <img class="img-fluid" src="./assets/img/logo/Logo-fondeado.png">
                             </div>
