@@ -94,7 +94,7 @@ if (!isset($_SESSION["formFilled"])) {
                 <div class="upper-floating-container">
                     <!-- COMPONENTES INTERNOS -->
                     <div id="floating-container">
-                        <h1 class="textouno"><b><i>Demuestra la efectividad de tú programa de capacitación o coach dando:</i></b></h1>
+                        <h1 class="textouno"><b><i>Demuestra</i></b> la efectividad de tú programa de capacitación o coach dando:</h1>
                         <p class="hipertexto">Seguimiento<br>Reforzamiento<br>Practicar<br>Evaluación</p>
                         <div>
                             <p class="subtexto"><b>Todo esto de manera automatizada</b></p>
