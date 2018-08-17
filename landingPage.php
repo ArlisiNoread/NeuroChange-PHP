@@ -45,53 +45,49 @@ if (!isset($_SESSION["formFilled"])) {
 
 
                 <div class="container-fluid">
-                    <div id="rows-id" class="row container-flow">
-                        <!--
-                        <div class="col col-md-4 rows-id-inner">
-                            
-                            <div id="neurogame" class="container-fluid">
-                                <img class="img-fluid" src="./assets/img/background/NeuroGame.jpg">
+                    <div id="contenedor-total" class="row container-flow">
+                        <div id="columna-1" class="col col-12 col-md-6 col-sm-12">
+                            <!--Una fila -->
+                            <div id="" class="d-flex flex-row">
+                                <div id="text-1" class=" ">
+                                    <p><b><i>Demuestra la efectividad de tu programa de capacitación o coach dando:</i></b></p>
+                                    <ul id="lista">
+                                        <li>Seguimiento</li>
+                                        <li>Reforzamiento</li>
+                                        <li>Práctica</li>
+                                        <li>Evaluación</li>
+                                    </ul>
+                                    <p><b>Todo esto de manera automatizada</b></p>
+                                </div>
+                            </div>
+
+                            <!--Una fila -->
+                            <div id="" class="d-flex flex-row-reverse">
+                                <div id="text-2" class="">
+                                    <p><b>NeuroGame Solutions</b></p>
+                                </div>
                             </div>
                         </div>
-                        -->
-                        <div class="col col-md-4">
-                            <!--
-                            <div id="schiller-quote" class="container-fluid">
-                                <img class="img-fluid" src="./assets/img/background/TextoSchiller.jpg">
-                            </div>
-                            -->
-                            <div class="container">
 
-
-                            </div>
-                            
-                            <div class="container">
-                                
-                                
-                            </div>
-
-
-                        </div>
-                        <div id="form-columna" class="col-12 col-md-4 col-sm-12 col-12">
-                            <div id="logo" class="container-fluid">
-                                <img class="img-fluid" src="./assets/img/logo/Logo-fondeado.png">
-                            </div>
+                        <div id="form-columna" class="col col-12 col-md-6 col-sm-12">
+                            <img class="logo-adaptivo" src="./assets/img/logo/Logo-fondeado.png">
                             <div id="formulario" class="container">
                                 <form action="./sendMail.php" method="post">
-                                    <label for="fname">Nombre Completo</label>
+                                    <label for="fname"><b>Nombre Completo</b></label>
                                     <input type="text"  name="Nombre-Completo" required>
 
-                                    <label for="lname">Email</label>
+                                    <label for="lname"><b>Email</b></label>
                                     <input type="email"  name="Email"  required>
 
-                                    <label for="fname">Teléfono</label>
-                                    <input type="tel"  name="Telefono" pattern="^[0-9]*$" required> 
+                                    <label for="fname"><b>Ocupación</b></label>
+                                    <input type="text"  name="Ocupación" required> 
 
-                                    <label for="lname">Ciudad</label>
-                                    <input type="text"  name="Ciudad" required>
 
                                     <input type="text"  name="isEnviado" value="enviado" hidden>
                                     <input id="botonEnviar" type="submit" value="Enviar">
+                                    <br><br>
+                                    <label style="font-size: 1.3vw"><b>Tus datos están seguros. Consulta nuestras <a href="./aviso-privacidad.php" target="_blank">políticas de privacidad</a>.</b></label>
+
                                 </form>
                             </div>
                         </div>
