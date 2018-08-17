@@ -139,13 +139,20 @@ input[type=submit]:hover {
     padding-bottom: 15px;
 }*/
 
-#background {
+body{
     background-image: url(../img/background/LandingPageBack.jpg);
-    position: fixed;
     background-size: cover;
     background-repeat: repeat;
+
+}
+
+#background {
+    !background-image: url(../img/background/LandingPageBack.jpg);
+    !position: fixed;
+    !background-size: cover;
+    !background-repeat: repeat;
     height: 100%;
-    overflow-y: scroll;
+    !overflow-y: scroll;
 
 }
 
@@ -245,7 +252,7 @@ input[type=submit]:hover {
     #form-columna{
         padding-bottom: 35px;
     }
-    
+
     #background {
         height: auto;
     }
@@ -290,7 +297,7 @@ input[type=submit]:hover {
         left: 20%;
         width: 100px;
     }
-    
+
     #formulario {
         width: 95%;
     }
