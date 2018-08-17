@@ -48,9 +48,9 @@ if (!isset($_SESSION["formFilled"])) {
                     <div id="contenedor-total" class="row container-flow">
                         <div id="columna-1" class="col col-12 col-md-6 col-sm-12">
                             <!--Una fila -->
-                            <div id="" class="d-flex flex-row">
+                            <div id="tohide-1" class="d-flex flex-row">
                                 <div id="text-1" class=" ">
-                                    <p><b><i>Demuestra la efectividad de tu programa de capacitación o coach dando:</i></b></p>
+                                    <p><b><i>Demuestra</i></b> la efectividad de tu programa de capacitación o coach dando:</p>
                                     <ul id="lista">
                                         <li>Seguimiento</li>
                                         <li>Reforzamiento</li>
@@ -62,14 +62,30 @@ if (!isset($_SESSION["formFilled"])) {
                             </div>
 
                             <!--Una fila -->
-                            <div id="" class="d-flex flex-row-reverse">
+                            <div id="tohide-2" class="d-flex flex-row-reverse">
                                 <div id="text-2" class="">
-                                    <p><b>NeuroGame Solutions</b></p>
+                                    <p><i id="iconPieza" class="fas fa-puzzle-piece"></i><b>NeuroGame Solutions</b></p>
                                 </div>
                             </div>
                         </div>
 
                         <div id="form-columna" class="col col-12 col-md-6 col-sm-12">
+                            <div id="hidden-divs">
+                                <div id="text-1-hidden" class=" ">
+                                    <p><b><i>Demuestra</i></b> la efectividad de tu programa de capacitación o coach dando:</p>
+                                    <ul id="lista">
+                                        <li>Seguimiento</li>
+                                        <li>Reforzamiento</li>
+                                        <li>Práctica</li>
+                                        <li>Evaluación</li>
+                                    </ul>
+                                    <p><b>Todo esto de manera automatizada</b></p>
+                                </div>
+                                <div id="text-2-hidden" class="">
+                                    <p><i id="iconPieza-hidden" class="fas fa-puzzle-piece"></i><b>NeuroGame Solutions</b></p>
+                                </div>
+
+                            </div>
                             <img class="logo-adaptivo" src="./assets/img/logo/Logo-fondeado.png">
                             <div id="formulario" class="container">
                                 <form action="./sendMail.php" method="post">
@@ -86,7 +102,7 @@ if (!isset($_SESSION["formFilled"])) {
                                     <input type="text"  name="isEnviado" value="enviado" hidden>
                                     <input id="botonEnviar" type="submit" value="Enviar">
                                     <br><br>
-                                    <label style="font-size: 1.3vw"><b>Tus datos están seguros. Consulta nuestras <a href="./aviso-privacidad.php" target="_blank">políticas de privacidad</a>.</b></label>
+                                    <label id="label-aviso"><b>Tus datos están seguros. Consulta nuestras <a href="./aviso-privacidad.php" target="_blank">políticas de privacidad</a>.</b></label>
 
                                 </form>
                             </div>
