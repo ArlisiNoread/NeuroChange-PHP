@@ -242,6 +242,10 @@ input[type=submit]:hover {
 
 
 @media only screen and (max-width: 768px) {
+    #form-columna{
+        padding-bottom: 35px;
+    }
+    
     #background {
         height: auto;
     }
