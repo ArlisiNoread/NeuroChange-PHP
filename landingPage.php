@@ -73,12 +73,10 @@ if (!isset($_SESSION["formFilled"])) {
                             <div id="hidden-divs">
                                 <div id="text-1-hidden" class=" ">
                                     <p><b><i>Demuestra</i></b> la efectividad de tu programa de capacitación o coach dando:</p>
-                                    <ul id="lista">
-                                        <li>Seguimiento</li>
-                                        <li>Reforzamiento</li>
-                                        <li>Práctica</li>
-                                        <li>Evaluación</li>
-                                    </ul>
+                                        <p>Seguimiento</p>
+                                        <p>Reforzamiento</p>
+                                        <p>Práctica</p>
+                                        <p>Evaluación</p>
                                     <p><b>Todo esto de manera automatizada</b></p>
                                 </div>
                                 <div id="text-2-hidden" class="">
