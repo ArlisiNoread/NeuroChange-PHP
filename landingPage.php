@@ -94,7 +94,7 @@ if (!isset($_SESSION["formFilled"])) {
                                     <input type="email"  name="Email"  required>
 
                                     <label for="fname"><b>Ocupación</b></label>
-                                    <input type="text"  name="Ocupación" required> 
+                                    <input type="text"  name="Ocupacion" required> 
 
 
                                     <input type="text"  name="isEnviado" value="enviado" hidden>

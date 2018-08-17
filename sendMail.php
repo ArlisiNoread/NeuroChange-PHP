@@ -12,9 +12,9 @@ if (isset($_POST['isEnviado'])) {
 
     $nombreCompleto = htmlspecialchars($_POST['Nombre-Completo']);
     $email = htmlspecialchars($_POST['Email']);
-    $telefono = htmlspecialchars($_POST['Telefono']);
-    $ciudad = htmlspecialchars($_POST['Ciudad']);
-// Fetching data that is entered by the user
+    $ocupacion = htmlspecialchars($_POST['Ocupacion']);
+    
+    // Fetching data that is entered by the user
     /*
       $email = $_POST['email'];
       $password = $_POST['password'];
@@ -41,8 +41,7 @@ if (isset($_POST['isEnviado'])) {
     $msg = 'Cuestionario: <br>';
     $msg .= 'Nombre Completo: ' . $nombreCompleto . '<br>';
     $msg .= 'Email: ' . $email . '<br>';
-    $msg .= 'Teléfono: ' . $telefono . '<br>';
-    $msg .= 'Ciudad: ' . $ciudad . '<br>';
+    $msg .= 'Ocupación: ' . $ocupacion . '<br>';
     $msg .= 'Fecha: ' . date("Y/m/d") . ' ' . date("h:i:sa") . ' ' . '<br>';
 
     $mail->msgHTML($msg);
