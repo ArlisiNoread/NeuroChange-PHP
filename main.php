@@ -94,7 +94,7 @@ if (!isset($_SESSION["formFilled"])) {
                 <div class="upper-floating-container">
                     <!-- COMPONENTES INTERNOS -->
                     <div id="floating-container">
-                        <h1 class="textouno">Demuestra la efectividad de tú programa de capacitación o coach dando:</h1>
+                        <h1 class="textouno"><b><i>Demuestra la efectividad de tú programa de capacitación o coach dando:</i></b></h1>
                         <p class="hipertexto">Seguimiento<br>Reforzamiento<br>Practicar<br>Evaluación</p>
                         <div>
                             <p class="subtexto"><b>Todo esto de manera automatizada</b></p>
@@ -411,9 +411,9 @@ if (!isset($_SESSION["formFilled"])) {
                                         </div>
                                         <h3>Valores</h3>
                                         <div class="text">
-                                            <p><b>Innovación:</b> Ofrecemos tecnología vanguardista diseñada y desarrollada con base en la neurociencia y el aprendizaje.</p>
-                                            <p><b>Orientación a Resultados:</b> Nos enfocamos al logro de los resultados, mismos que son 100% medibles y comprobables.</p>
-                                            <p><b>Servicio:</b>  Ponemos nuestra experiencia, conocimientos, tecnología y pasión en lo que hacemos, para satisfacer las necesidades de nuestros clientes.</p>
+                                            <p><b style="font-weight= 700i;" style="font-size= 15px;">Innovación:</b> Ofrecemos tecnología vanguardista diseñada y desarrollada con base en la neurociencia y el aprendizaje.</p>
+                                            <p><b style="font-weight= 700i;" style="font-size= 15px;">Orientación a Resultados:</b> Nos enfocamos al logro de los resultados, mismos que son 100% medibles y comprobables.</p>
+                                            <p><b style="font-weight= 700i;" style="font-size= 15px;">Servicio:</b>  Ponemos nuestra experiencia, conocimientos, tecnología y pasión en lo que hacemos, para satisfacer las necesidades de nuestros clientes.</p>
                                         </div>
                                     </div>
                                 </div>
