@@ -73,10 +73,10 @@ if (!isset($_SESSION["formFilled"])) {
                             <div id="hidden-divs">
                                 <div id="text-1-hidden" class=" ">
                                     <p><b><i>Demuestra</i></b> la efectividad de tu programa de capacitación o coach dando:</p>
-                                        <p>Seguimiento</p>
-                                        <p>Reforzamiento</p>
-                                        <p>Práctica</p>
-                                        <p>Evaluación</p>
+                                    <p>Seguimiento</p>
+                                    <p>Reforzamiento</p>
+                                    <p>Práctica</p>
+                                    <p>Evaluación</p>
                                     <p><b>Todo esto de manera automatizada</b></p>
                                 </div>
                                 <div id="text-2-hidden" class="">
@@ -87,11 +87,16 @@ if (!isset($_SESSION["formFilled"])) {
                             <img class="logo-adaptivo" src="./assets/img/logo/Logo-fondeado.png">
                             <div id="formulario" class="container">
                                 <form action="./sendMail.php" method="post">
+                                    <label for="fname"><b>Para más información, por favor compártenos tus datos.</b></label>
+
                                     <label for="fname"><b>Nombre Completo</b></label>
                                     <input type="text"  name="Nombre-Completo" required>
 
                                     <label for="lname"><b>Email</b></label>
                                     <input type="email"  name="Email"  required>
+                                    
+                                    <label for="lname"><b>Cel</b></label>
+                                    <input type="tel"  name="Cel" pattern="^[0-9]*$" required>
 
                                     <label for="fname"><b>Ocupación</b></label>
                                     <input type="text"  name="Ocupacion" required> 

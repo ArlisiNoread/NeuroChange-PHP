@@ -336,7 +336,7 @@ if (!isset($_SESSION["formFilled"])) {
                         </div>
                         <div class="col col-xs-12 col-12 col-sm-12 col-md-6">
                             <div class="container" style="font-size: 30px; text-align: center; padding-top: 50px;">
-                                <p><b>"Soy facilitadora y consultora de capacitación</b>, ayudo a colegas coachs y responsables de capacitación a dar resulados tangibles de manera automática a través de <b style="color: rgb(255, 196, 37)">tu nueva herramienta NeuroGame."</b></p>
+                                <p>"Soy facilitadora y consultora de capacitación, <b>ayudo a colegas coachs y responsables de capacitación a dar resultados tangibles</b> de manera automática a través de <b style="color: rgb(255, 196, 37)">tu nueva herramienta NeuroGame."</b></p>
 
                                 <audio id="audio-mp3" controls>
                                     <source src="./assets/sound/SpotNeurochange.mp3" type="audio/mpeg">
