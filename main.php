@@ -3,9 +3,9 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-if (!isset($_SESSION["formFilled"])) {
+if (!isset($_SESSION["formFilled"]) && false) {
     include './index.php';
-} else if (!$_SESSION["formFilled"]) {
+} else if (!$_SESSION["formFilled"] && false) {
     include './index.php';
 } else {
     ?>
@@ -95,10 +95,10 @@ if (!isset($_SESSION["formFilled"])) {
                     <!-- COMPONENTES INTERNOS -->
                     <div id="floating-container">
                         <h1 class="textouno"><b><i>Demuestra</i></b> la efectividad de tú programa de capacitación o coach dando:</h1>
-                        <p class="hipertexto">Seguimiento<br>Reforzamiento<br>Practicar<br>Evaluación</p>
+                        <p class="hipertexto">Seguimiento<br>Reforzamiento<br>Práctica<br>Y<br>Evaluación</p>
                         <div>
                             <p class="subtexto"><b>Todo esto de manera automatizada</b></p>
-                            <p class="last-neuro-text"><b>NeuroChange Consulting</b></p>
+                            <p class="last-neuro-text"><b>Neurochange Consulting</b></p>
                         </div>
 
                     </div>
@@ -115,7 +115,8 @@ if (!isset($_SESSION["formFilled"])) {
                     <div class="row">
                         <div id="div-primera-seccion-col-left" class="col col-xs-12 col-12 col-sm-12  col-md-6">
                             <h3><b>NeuroGame</b><i id="puzzle-piece" class="fas fa-puzzle-piece"></i></h3>
-                            <p>¿Te imaginas entregar a tus clientes resultados medibles de tu proceso de capacitación o coach, dar un servicio mucho más integral que el de sólo capacitar y lograr mayores ventas?</p>
+                            <p>¿Te imaginas entregar a tus clientes resultados <b>
+                            </b> de tu proceso de capacitación o coach, dar un servicio mucho más integral que el de sólo capacitar y lograr mayores ventas?</p>
                         </div>
                         <div class="col col-xs-12 col-12 col-sm-12  col-md-6 ">
                             <div id="div-iframe ajuste-responsivo">
@@ -155,7 +156,7 @@ if (!isset($_SESSION["formFilled"])) {
                                 <h3 style="color: white; font-size: 35px;"><b>NeuroGame Solution</b></h3>
                                 <h3 style="margin-bottom: 20px; font-size: 25px">Nuestro Producto Estrella</h3>
                                 <i id="check" class="fas fa-check"></i>
-                                <p class="seguimiento" style="font-size: 25px;">¡Dar seguimiento, reforzamiento, práctica y evaluación automatizada, después de tu programa de capacitación o coach, ya es posible!</p>
+                                <p class="seguimiento" style="font-size: 25px;">¡Dar seguimiento, reforzamiento, práctica y evaluación automatizada, después de tu programa de capacitación o coach, <b>ya es posible</b>!</p>
                                 <button type="button" id="boton-abierto-masInformacion-flotante" class="btn btn-secondary btn-lg btn-block"><b>Más Información</b></button>
 
                             </div>
@@ -167,7 +168,7 @@ if (!isset($_SESSION["formFilled"])) {
                             <div class="container segunda-seccion-col segunda-seccion-blanco" style="text-align: center !important;">
 
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uWqPQprSKjk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ehv23nWu7Lo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
 
                             </div>
@@ -197,7 +198,7 @@ if (!isset($_SESSION["formFilled"])) {
                     <div class="row">
                         <div class="col col-xs-12 col-12 col-sm-12 col-md-6">
                             <div class="container">
-                                <p style="font-size: 30px;"><b class="porque">¿Porqué elegir NeuroChange Consulting?</b></p>
+                                <p style="font-size: 30px;"><b class="porque">¿Porqué elegir Neurochange Consulting?</b></p>
 
                                 <p style="color: rgb(0, 49, 82);">Sabemos que el juego es un mecanismo natural arraigado genéticamente en nuestro cerebro que despierta la curiosidad, la alegría y facilita el aprendizaje para desenvolvernos mejor en el mundo que nos rodea.</p>
 
@@ -336,7 +337,7 @@ if (!isset($_SESSION["formFilled"])) {
                         </div>
                         <div class="col col-xs-12 col-12 col-sm-12 col-md-6">
                             <div class="container" style="font-size: 30px; text-align: center; padding-top: 50px;">
-                                <p>"Soy facilitadora y consultora de capacitación, <b>ayudo a colegas coachs y responsables de capacitación a dar resultados tangibles</b> de manera automática a través de <b style="color: rgb(255, 196, 37)">tu nueva herramienta NeuroGame."</b></p>
+                                <p>"Soy facilitadora y consultora de capacitación, <b>ayudo a colegas coachs y responsables de capacitación a dar resultados tangibles</b> y de manera automática a través de <b style="color: rgb(255, 196, 37)">tu nueva herramienta NeuroGame."</b></p>
 
                                 <audio id="audio-mp3" controls>
                                     <source src="./assets/sound/SpotNeurochange.mp3" type="audio/mpeg">
@@ -412,7 +413,7 @@ if (!isset($_SESSION["formFilled"])) {
                                         <h3>Valores</h3>
                                         <div class="text">
                                             <p><b><i class="valores">Innovación:</i></b> Ofrecemos tecnología vanguardista diseñada y desarrollada con base en la neurociencia y el aprendizaje.</p>
-                                            <p><b><i class="valores">Orientación a Resultados:</i></b> Nos enfocamos al logro de los resultados, mismos que son 100% medibles y comprobables.</p>
+                                            <p><b><i class="valores">Orientación a Resultados:</i></b> Nos enfocamos al logro de los resultados, mismos que son 100% medibles  y comprobables.</p>
                                             <p><b><i class="valores">Servicio:</i></b>  Ponemos nuestra experiencia, conocimientos, tecnología y pasión en lo que hacemos, para satisfacer las necesidades de nuestros clientes.</p>
                                         </div>
                                     </div>
@@ -421,9 +422,7 @@ if (!isset($_SESSION["formFilled"])) {
                         </div>
                     </div>
                 </section>
-                <div class="imagenCompleta line-zero">
-                    <img class="imagenCompleta img-fluid">
-                </div>
+
             </div>
 
 

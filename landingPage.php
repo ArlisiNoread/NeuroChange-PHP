@@ -2,7 +2,7 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
-if (!isset($_SESSION["formFilled"])) {
+if (!isset($_SESSION["formFilled"]) && false) {
     include './index.php';
 } else {
     ?>
@@ -87,25 +87,25 @@ if (!isset($_SESSION["formFilled"])) {
                             <img class="logo-adaptivo" src="./assets/img/logo/Logo-fondeado.png">
                             <div id="formulario" class="container">
                                 <form action="./sendMail.php" method="post">
-                                    <label for="fname"><b>Para más información, por favor compártenos tus datos.</b></label>
+                                    <label for="fname" style="color:white;"><b>Para más información, por favor compártenos tus datos.</b></label>
 
-                                    <label for="fname"><b>Nombre Completo</b></label>
+                                    <label for="fname" style="color:white;"><b>Nombre Completo</b></label>
                                     <input type="text"  name="Nombre-Completo" required>
 
-                                    <label for="lname"><b>Email</b></label>
+                                    <label for="lname" style="color:white;"><b>Email</b></label>
                                     <input type="email"  name="Email"  required>
                                     
-                                    <label for="lname"><b>Cel</b></label>
+                                    <label for="lname" style="color:white;"><b>Tel</b></label>
                                     <input type="tel"  name="Cel" pattern="^[0-9]*$" required>
 
-                                    <label for="fname"><b>Ocupación</b></label>
+                                    <label for="fname" style="color:white;"><b>Ocupación</b></label>
                                     <input type="text"  name="Ocupacion" required> 
 
 
                                     <input type="text"  name="isEnviado" value="enviado" hidden>
                                     <input id="botonEnviar" type="submit" value="Enviar">
                                     <br><br>
-                                    <label id="label-aviso"><b>Tus datos están seguros. Consulta nuestras <a href="./aviso-privacidad.php" target="_blank">políticas de privacidad</a>.</b></label>
+                                    <label id="label-aviso" style="color:white;"><b>Tus datos están seguros. Consulta nuestras <a href="./aviso-privacidad.php" target="_blank">políticas de privacidad</a>.</b></label>
 
                                 </form>
                             </div>

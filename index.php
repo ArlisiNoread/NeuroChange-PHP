@@ -1,13 +1,12 @@
 <?php
 
-    header("Location: ./main.php", true, 301);
-
 
 
 if(session_status() == PHP_SESSION_NONE){
     session_start();
 }
 
+/*
 if (!isset($_SESSION["formFilled"])) {
     $_SESSION["formFilled"] = FALSE;
 }
@@ -21,5 +20,9 @@ if (!$_SESSION["formFilled"]) {
     //include "./main.php";
     header("Location: ./main.php", true, 301);
 }
+*/
+
+    header("Location: ./main.php", true, 301);
+
 ?>
 

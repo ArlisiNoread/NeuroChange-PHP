@@ -43,7 +43,7 @@
 }
 
 .hipertexto {
-    font-size: 3vw;
+    font-size: 2.3vw;
 }
 
 .subtexto {
@@ -691,4 +691,8 @@ p.copyright {
 
 .valores{
     text-align: center;
+}
+
+.blockquote-footer::before{
+	content: none;
 }

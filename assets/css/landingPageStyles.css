@@ -324,10 +324,10 @@ body{
 
 
 
-@media only screen and (max-height: 725px) and (min-width: 768px) {
+@media only screen and (max-height: 725px) and (min-width: 767px) {
 
     #formulario {
-        height: 80vh;
+        height: 76vh;
     }
 
     #formulario form label {
