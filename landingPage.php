@@ -50,14 +50,8 @@ if (!isset($_SESSION["formFilled"]) && false) {
                             <!--Una fila -->
                             <div id="tohide-1" class="d-flex flex-row">
                                 <div id="text-1" class=" ">
-                                    <p><b><i>Demuestra</i></b> la efectividad de tu programa de capacitación o coach dando:</p>
-                                    <ul id="lista">
-                                        <li>Seguimiento</li>
-                                        <li>Reforzamiento</li>
-                                        <li>Práctica</li>
-                                        <li>Evaluación</li>
-                                    </ul>
-                                    <p><b>Todo esto de manera automatizada</b></p>
+                                    <p><b>¿Te imaginas entregar a tus clientes resultados medibles de tu proceso de capacitación o coach,</b></p>
+                                    <p><b>dar un servicio mucho más integral que el de sólo capacitar y lograr mayores ventas?</b></p>
                                 </div>
                             </div>
 
@@ -72,19 +66,15 @@ if (!isset($_SESSION["formFilled"]) && false) {
                         <div id="form-columna" class="col col-12 col-md-6 col-sm-12">
                             <div id="hidden-divs">
                                 <div id="text-1-hidden" class=" ">
-                                    <p><b><i>Demuestra</i></b> la efectividad de tu programa de capacitación o coach dando:</p>
-                                    <p>Seguimiento</p>
-                                    <p>Reforzamiento</p>
-                                    <p>Práctica</p>
-                                    <p>Evaluación</p>
-                                    <p><b>Todo esto de manera automatizada</b></p>
+                                    <p><b>¿Te imaginas entregar a tus clientes resultados medibles de tu proceso de capacitación o coach,</b></p>
+                                    <p><b>dar un servicio mucho más integral que el de sólo capacitar y lograr mayores ventas?</b></p>
                                 </div>
                                 <div id="text-2-hidden" class="">
                                     <p><i id="iconPieza-hidden" class="fas fa-puzzle-piece"></i><b>NeuroGame Solutions</b></p>
                                 </div>
 
                             </div>
-                            <img class="logo-adaptivo" src="./assets/img/logo/Logo-fondeado.png">
+                            <img class="logo-adaptivo" src="./assets/img/logo/Logo-fondeado-blanco.png">
                             <div id="formulario" class="container">
                                 <form action="./sendMail.php" method="post">
                                     <label for="fname" style="color:white;"><b>Para más información, por favor compártenos tus datos.</b></label>
